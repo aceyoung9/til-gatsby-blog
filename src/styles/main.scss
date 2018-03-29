@@ -1,5 +1,65 @@
 @import '~tachyons/css/tachyons';
 
+
+$cosmicLatte: #FFF8E7;
+$highlighter: lighten(#DCED31, 10%);
+$navy : #133C55;
+$cobalt: #6A82FB;
+$pink : #FC5C7D;
+
 body {
   @extend .helvetica;
+
 }
+
+.l-wrapper {
+  @extend .center;
+}
+
+.l-sidebar {
+  @extend .fl;
+  @extend .w-third-ns;
+  @media screen and (min-width: 30em) {
+    height: 100vh;
+  }
+  @extend .pa3;
+
+  @extend .tc;
+
+  background: linear-gradient(to top, $cobalt, $pink);
+  background-attachment: fixed;
+  color: white;
+
+  p {
+    @extend .lh-copy;
+    @extend .f3;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  }
+}
+
+.l-main {
+  @extend .fl;
+  @extend .w-two-thirds-ns;
+  @extend .pa3;
+}
+
+.sidebar__title {
+  @extend .f-headline-l;
+  @extend .f3;
+
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 9px solid white;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+@import './layout/article.scss';

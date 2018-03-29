@@ -6,28 +6,27 @@ import '../styles/main.scss'
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
-    let header
-    if (location.pathname === '/') {
-      header = (
-        <h1>
+    // if (location.pathname === '/') {
+    const sidebar = (
+      <div className='l-sidebar'>
+        <h1 className="sidebar__title">
           <Link to={'/'} >
-            Gatsby Starter Blog
+            TIL
           </Link>
         </h1>
+        <p>A microblog for my front-end misadventures.</p>
+
+      </div>
+
       )
-    } else {
-      header = (
-        <h3>
-          <Link to={'/'}>
-            Gatsby Starter Blog
-          </Link>
-        </h3>
-      )
-    }
     return (
-      <div>
-        {header}
-        {children()}
+      <div className='l-wrapper'>
+
+        {sidebar}
+
+        <div className='l-main'>
+          {children()}
+        </div>
       </div>
     )
   }

@@ -1,0 +1,33 @@
+.article__title {
+  @extend .f3;
+  @extend .f2-m;
+  @extend .f1-l;
+
+  margin-bottom: 2rem;
+
+  a {
+    @extend .pa3;
+
+    @extend .underline;
+    @extend .bg-animate;
+    @extend .bg-white;
+    color: $navy;
+    &:hover {
+      background-color: $highlighter;
+    }
+  }
+}
+
+.article__single {
+  @extend .pa3;
+}
+
+.article__date {
+  @extend .f6;
+  @extend .ttu;
+  @extend .tracked;
+}
+
+.article__body {
+  @extend .lh-copy;
+}
