@@ -3,6 +3,7 @@ module.exports = {
     title: "TIL",
     author: "Alice Young",
   },
+  pathPrefix: `/til-gatsby-blog`,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
