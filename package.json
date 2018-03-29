@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-blog-no-styles",
-  "description": "Starter Gatsby Blog No Styles",
+  "name": "til-gatsby-blog",
+  "description": "Gatsby Blog: stuff I learned at work. Lists and things.",
   "version": "1.0.0",
-  "author": "Noah Glusenkamp <noah.glusenkamp@gmail.com>",
+  "author": "Alice Young <aliceyoung.9@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/aliceyoung9/til-gatsby-blog/issues"
   },
   "dependencies": {
     "gatsby": "^1.9.243",
@@ -31,7 +31,7 @@
     "prettier": "^1.6.1",
     "tachyons": "^4.9.1"
   },
-  "homepage": "https://github.com/noahg/gatsby-starter-blog-no-styles#readme",
+  "homepage": "https://github.com/aliceyoung9/til-gatsby-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -39,7 +39,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahg/gatsby-starter-blog-no-styles.git"
+    "url": "git+https://github.com/aliceyoung9/til-gatsby-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
