@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{380:function(e,t){e.exports={data:{site:{siteMetadata:{title:"TIL"}},allMarkdownRemark:{edges:[{node:{excerpt:"Shoutout to: GatsbyJS Stripped Theme Tachyons",fields:{slug:"/2018-03-29/"},frontmatter:{date:"March 29, 2018",title:"Hello darkness my old friend"}}},{node:{excerpt:"Nothing’s actually here.",fields:{slug:"/2018-03-28/"},frontmatter:{date:"March 28, 2018",title:"Second Article just cuz"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-513f68ea174e52755931.js.map

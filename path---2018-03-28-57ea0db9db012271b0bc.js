@@ -1,0 +1,2 @@
+webpackJsonp([63089369267247],{376:function(t,e){t.exports={data:{site:{siteMetadata:{title:"TIL",author:"Alice Young"}},markdownRemark:{id:"/Users/ayoung/Playground/til-gatsby-blog/src/pages/2018-03-28.md absPath of file >>> MarkdownRemark",html:"<p>Nothing’s actually here.</p>",frontmatter:{title:"Second Article just cuz",date:"March 28, 2018"}}},pathContext:{slug:"/2018-03-28/",previous:!1,next:{fields:{slug:"/2018-03-29/"},frontmatter:{title:"Hello darkness my old friend"}}}}}});
+//# sourceMappingURL=path---2018-03-28-57ea0db9db012271b0bc.js.map
