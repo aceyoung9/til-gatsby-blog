@@ -7,3 +7,7 @@
 3) Run Development Server
 
     `gatsby develop`
+
+### Note
+
+`touch src/pages/$(date +"%Y-%m-%d").md`
