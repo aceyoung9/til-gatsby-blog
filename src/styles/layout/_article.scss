@@ -3,15 +3,17 @@
   @extend .f2-m;
   @extend .f1-l;
 
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   a {
-    @extend .pa3;
-
+    @extend .ma3;
+    @extend .pa2;
     @extend .underline;
     @extend .bg-animate;
-    @extend .bg-white;
+    background-color: transparent;
+    background-blend-mode: multiply;
     color: $navy;
+    display: inline-block;
     &:hover {
       background-color: $highlighter;
     }
