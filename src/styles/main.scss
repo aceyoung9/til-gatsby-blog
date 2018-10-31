@@ -14,11 +14,13 @@ body {
 
 .l-wrapper {
   @extend .center;
+  @extend .relative;
 }
 
 .l-sidebar {
   @extend .fl;
   @extend .w-third-ns;
+  @extend .fixed-ns;
   @media screen and (min-width: 30em) {
     height: 100vh;
   }
@@ -38,9 +40,9 @@ body {
 }
 
 .l-main {
-  @extend .fl;
   @extend .w-two-thirds-ns;
   @extend .pa3;
+  margin-left: auto;
 }
 
 .sidebar__title {
